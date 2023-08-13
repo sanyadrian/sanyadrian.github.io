@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Brad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Oleksandr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Oleksandr</h2>
+                <p class="hero_desc">I am a professional Web Developer from Ottawa</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="images/about.jpeg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <section class="about-me">
+                    <h2>About Me</h2>
+                    <p>Hello, I'm Oleksandr Adrianov, a passionate and dedicated Web Developer based in Ottawa. I'm currently enrolled in Algonquin College, pursuing a degree in Web Development and Internet Application.</p>
+                    
+                    <p>With a strong foundation in both programming and design, I thrive in creating dynamic and visually appealing web experiences.</p>
+                    
+                    <p>I believe in continuous learning and staying updated with the latest trends to ensure I provide cutting-edge solutions.</p>
+                    
+                    <p>I'm excited to embark on new projects, collaborate with fellow developers, and contribute my skills to the ever-evolving landscape of web development.</p>
+                    
+                    <p>Feel free to reach out to me!</p>
+                </section>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">Building dynamic websites that engage users and drive results through clean code, intuitive navigation, and responsive design.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">Crafting captivating web experiences that blend innovative design with seamless functionality, catering to modern user expectations.
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">Ensuring smooth and efficient website deployment, making projects go live seamlessly and ready for the world to experience. 
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">SEO</h4>
+                        <p class="card-text mt-3">Implementing SEO strategies that enhance website discoverability, ensuring content is seen by the right people at the right time.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">DevOps</h4>
+                        <p class="card-text mt-3">Empowering development and operations synergy, implementention of  DevOps practices to streamline processes, automate deployments, and ensure software excellence.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">QA</h4>
+                        <p class="card-text mt-3">Dedicated to ensuring top-tier software quality, meticulous testing and analyze applications to deliver flawless user experiences.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage1.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Studio Registration Form</h4>
+                            <p class="card-text">Register students of different types: Full-Time, Part-Time, and Co-op.</p><br>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/Student-Registration-Form" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">APOD</h4>
+                            <p class="card-text">This web application allows users to request Astronomy Pictures of the Day (APOD) by date using the NASA APOD API. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/apod-web-app" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage3.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">SQL project</h4>
+                            <p class="card-text">Application fills the Postgres database and then through rest api get or change all required information. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/SQL_Project" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">PetBlog</h4>
+                            <p class="card-text">PetBlog is a web application built using Django framework that allows users to create an account, share photos, and leave comments about pets.</p><br>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/PetBlog" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage1.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Expense Calculator</h4>
+                            <p class="card-text">This Python script provides classes for managing records of expenses and performing calculations related to calories and cash.</p><br>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/hw_python_oop" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Djangogram</h4>
+                            <p class="card-text">Djangogram is a social media application built with Django that allows users to create profiles, post images, follow other users, and interact with posts through likes.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/sanyadrian/Djangogram/tree/main" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=ottawa+NSW&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+                    <input type="email" class="form-control mt-3" id="email" placeholder="Email">
+                    <input type="text" class="form-control mt-3" id="subject" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="projectDetails" placeholder="Project Details"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success mt-3" id="contactButton">Contact Me</button>
+                </form>
+                <div id="feedback"></div>
+            
+                <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+                <script>
+                    emailjs.init("0CwdKUTG6HwuzuN1D");
+            
+                    document.getElementById("contactButton").addEventListener("click", function() {
+                        var name = document.getElementById("name").value;
+                        var email = document.getElementById("email").value;
+                        var subject = document.getElementById("subject").value;
+                        var projectDetails = document.getElementById("projectDetails").value;
+            
+                        // Simple validation
+                        if (name === "" || email === "" || subject === "" || projectDetails === "") {
+                            document.getElementById("feedback").innerHTML = "Please fill in all fields.";
+                        } else {
+                            emailjs.send("service_z8yvn8v", "template_f89551s", {
+                                to_email: "adrianovoleskandr@gmail.com",
+                                from_name: name,
+                                from_email: email,
+                                subject: subject,
+                                projectDetails: projectDetails
+                            }).then(function(response) {
+                                console.log("Email sent successfully:", response);
+                                document.getElementById("feedback").innerHTML = "Thank you! Your message has been sent.";
+                            }, function(error) {
+                                console.error("Email sending failed:", error);
+                                document.getElementById("feedback").innerHTML = "Oops! Something went wrong.";
+                            });
+                        }
+                    });
+                </script>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a> -->
+            <a href="https://www.linkedin.com/in/oleksandradrianov/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> -->
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
